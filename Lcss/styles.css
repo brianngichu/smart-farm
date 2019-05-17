@@ -1,0 +1,84 @@
+header{
+    height: 60px;
+    background-color: seagreen;
+}
+header > img {
+    height: 60px;
+}
+nav{
+    float: right;
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 30px;
+    color: rgb(112, 48, 6);
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+h1, h2{
+    text-align: center;
+    color:seagreen;
+}
+h5, p, h6{
+    text-align: center;
+}
+#elvis-showing, #brian-showing, #kelvin-showing, #me-showing{
+    display: none;
+}
+footer{
+    border-top: 2px solid seagreen;
+    height: 300px;
+    padding-top: 40px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > ul{
+    /* margin-left: 200px; */
+    list-style-type: none;
+}
+.footer{
+    border-top: 2px solid greenyellow;
+    height: 500px;
+    padding-top: 40px;
+    background-color: #164205;
+    color: white;
+}
+.map{
+    margin-left: 40%;
+}
+.h1{
+    margin-left: 500px;
+}
+.socialIcons{
+    padding-top: 15px;
+    text-align: center;
+}
+.icons{
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.icon{
+    font-size: 40px;
+    padding: 10px;
+}

@@ -1,0 +1,310 @@
+body{
+    overflow-x: hidden;
+}
+header{
+    height: 60px;
+    background-color: #e0f80a;
+}
+header > img {
+    height: 60px;
+}
+nav{
+    float: right;
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 30px;
+    color: rgb(112, 48, 6);
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.slideshow{
+    z-index: -3;
+    position: relative;
+    margin: auto; 
+
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+    
+  }
+  .dots{
+    text-align: center;
+  }
+  .active {
+    background-color: #4cf10a;
+  } 
+  @keyframes fade {
+    from {opacity: 0.9}
+    to {opacity: 1}
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+.slide {
+    display: none;
+    height: 450px;
+}
+.img {
+    vertical-align: middle;
+    height: 400px;
+    
+}
+.content{
+    /* background-color: rgb(235, 235, 230); */
+}
+.typeOfFarming{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(112, 48, 6);
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    position: relative;
+}
+.commercial{
+    width: 30%;
+    border: 2px solid  rgb(112, 48, 6);
+    padding:10px;
+    padding-left:35px;
+    transition: transform .2s;
+    background-color: #e0f80a;
+
+}
+.commercial:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px  rgb(112, 48, 6);
+}
+h3 > a,h3 > a{
+    font-size: 40px;
+    font-family: 'Sanchez', serif;
+    color:  rgb(112, 48, 6);
+    text-shadow: 1px 1px 1px  rgb(112, 48, 6);
+    text-decoration: none;
+}
+h3 > a:hover{
+    color: white;
+    text-decoration: none;
+}
+.smallScale{
+    width: 30%;
+    border: 2px solid  rgb(112, 48, 6);
+    padding: 10px;
+    padding-left: 40px;
+    transition: transform .2s;
+    background-color: #e0f80a;
+}
+.smallScale:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 5px  rgb(112, 48, 6);
+}
+.welcome{
+    margin-top: -25%; 
+    margin-left: 20%;
+    margin-bottom: 20px;
+    z-index: 6; 
+    padding: 20px;
+    width: 60%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.welcome > h1{
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: 'Sanchez', serif;
+
+}
+.whatIsAgriculture,.about{
+    background-color: whitesmoke;
+}
+.whatIsAgriculture > h1{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 40px;
+}
+.para1{
+    width: 40%;
+    border-left: 6px solid greenyellow;
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
+.para2{
+    width: 40%;
+    border-right: 6px solid greenyellow;
+    /* margin: 50px; */
+    margin-left: 50%; 
+    padding: 20px;
+    font-size: 20px;
+}
+.contactUs{
+    text-align: center;
+    border-top: 2px solid greenyellow;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.forms{
+    margin-top: 80px; 
+    margin-left: 80px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.submit{
+    margin-left: 20px;
+}
+.quote{
+    margin-left: 300px;
+}
+.quote > img{
+    height: 200px;
+    border-radius: 50%;
+}
+.quote > h3{
+    width: 80%;
+    font-family: 'Special Elite', cursive;
+}
+input{
+    display: block;
+    margin: 20px;
+    width: 500px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.message{
+    height: 200px;
+}
+::placeholder{
+    color:  rgb(133, 126, 126);
+}
+.Footer{
+    border-top: 2px solid greenyellow;
+    height: 500px;
+    padding-top: 40px;
+    background-color: #164205;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > h1{
+    /* margin-left: 200px; */
+}
+footer > ul{
+    /* margin-left: 200px; */
+    list-style-type: none;
+}
+
+.map{
+    margin-left: 40%;
+}
+.socialIcons,.copyright{
+    text-align: center;
+}
+.socialIcons{
+    padding-top: 15px;
+}
+.icons{
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.icon{
+    font-size: 40px;
+    padding: 10px;
+}
+.mission{
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+    margin-left: 10%;
+    margin-bottom : 80px;
+}
+.mission > h1{
+    margin-bottom: 30px;
+    padding-top: 80px;
+}
+.vision{
+    width: 60%;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
+.vision > h1{
+    margin-bottom: 30px;
+}
+.ourValue{
+    width: 60%;
+    margin-left: 50%;
+}
+.ourValue > h1{
+    margin-bottom: 30px;
+    padding-left: 150px;
+}
+.combineHarvester{
+    height: 500px;
+}
+.combineHarvester > img{
+    height: 500px;
+    vertical-align: middle;
+}
+.livestock > h1{
+    margin-left: 50px;
+}
+.livestock > img{
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.ans2{
+    clear: right;
+    width: 50%;
+    margin-left: 400px;
+}
+.Hidden{
+    display: none;
+}
+.showing > img{
+    height: 200px;
+    width: 300px;
+}
+.cashCrops{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 500px;
+}
+.h1{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
