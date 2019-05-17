@@ -1,6 +1,6 @@
 
 .body{
-    background-image: url('../img/currentfuture-clients.jpg');
+    background-image: url('../kimg/currentfuture-clients.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10,7 +10,7 @@
 }
 header{
     height: 60px;
-    background-color:seagreen;
+    background-color:  #e0f80a;
 }
 header > img {
     height: 60px;

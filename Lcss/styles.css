@@ -1,6 +1,6 @@
 header{
     height: 60px;
-    background-color: seagreen;
+    background-color: #e0f80a;
 }
 header > img {
     height: 60px;
@@ -56,7 +56,7 @@ footer > ul{
     /* margin-left: 200px; */
     list-style-type: none;
 }
-.footer{
+.Footer{
     border-top: 2px solid greenyellow;
     height: 500px;
     padding-top: 40px;
@@ -81,4 +81,10 @@ footer > ul{
 .icon{
     font-size: 40px;
     padding: 10px;
+}
+ul > h1{
+    color: white;
+}
+.map > h1{
+    color: white;
 }
